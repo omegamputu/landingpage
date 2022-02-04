@@ -24,12 +24,58 @@ header
     max-width: 750px;
 }
 
-.overlay
+header .square
 {
+    right: 68%;
+    top: 71%;
+}
+
+header .triangle
+{
+    right: 7%;
+    bottom: 75%;
+}
+
+header .xshape
+{
+    right: 4%;
+    bottom: 50%;
+}
+
+header .half-circle1
+{
+    left: 50%;
+    bottom: 82%;
+}
+
+header .half-circle2
+{
+    left: 5%;
+    top: 87%;
+}
+
+header .circle
+{
+    left: 38%;
+    bottom: 63%;
+}
+
+.points
+{
+    opacity: .3;
     position: absolute;
-    width: 100%;
-    height: 100;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
+}
+
+header .points1
+{
+    width: 420px;
+    bottom: -75px;
+    left: -150px;
+}
+
+header .points2
+{
+    width: 70%;
+    top: 65%;
+    left: 71%;
 }

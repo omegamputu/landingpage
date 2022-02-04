@@ -17,6 +17,7 @@ img {
 
 .image
 {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,4 +35,10 @@ img {
     font-size: 1.25rem;
     color: var(--dark-one);
     line-height: 1.6;
+}
+
+z-index
+{
+    position: relative;
+    z-index: 2;
 }

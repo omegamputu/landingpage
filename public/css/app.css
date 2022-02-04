@@ -16,6 +16,7 @@ img {
 }
 
 .image {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +32,11 @@ img {
   font-size: 1.25rem;
   color: var(--dark-one);
   line-height: 1.6;
+}
+
+z-index {
+  position: relative;
+  z-index: 2;
 }
 
 :root {
@@ -95,6 +101,29 @@ img {
   margin-left: 1.5rem;
 }
 
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.overlay .shape {
+  width: initial;
+  opacity: 0.13;
+  position: absolute;
+}
+
+.overlay.overlay-lg .shape {
+  height: 55px;
+}
+
+.overlay.overlay-lg .shape.xshape {
+  height: 38px;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -117,13 +146,51 @@ header {
   max-width: 750px;
 }
 
-.overlay {
+header .square {
+  right: 68%;
+  top: 71%;
+}
+
+header .triangle {
+  right: 7%;
+  bottom: 75%;
+}
+
+header .xshape {
+  right: 4%;
+  bottom: 50%;
+}
+
+header .half-circle1 {
+  left: 50%;
+  bottom: 82%;
+}
+
+header .half-circle2 {
+  left: 5%;
+  top: 87%;
+}
+
+header .circle {
+  left: 38%;
+  bottom: 63%;
+}
+
+.points {
+  opacity: 0.3;
   position: absolute;
-  width: 100%;
-  height: 100;
-  top: 0;
-  bottom: 0;
-  overflow: hidden;
+}
+
+header .points1 {
+  width: 420px;
+  bottom: -75px;
+  left: -150px;
+}
+
+header .points2 {
+  width: 70%;
+  top: 65%;
+  left: 71%;
 }
 
 nav {

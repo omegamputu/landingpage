@@ -13,3 +13,25 @@ ul {
 img {
     width: 100%;
 }
+
+
+.image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title
+{
+    font-size: 3.8rem;
+    line-height: 0.8;
+    color: var(--dark-one);
+}
+
+.text
+{
+    font-size: 1.25rem;
+    color: var(--dark-one);
+    line-height: 1.6;
+}

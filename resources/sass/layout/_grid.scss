@@ -2,7 +2,7 @@
 {
     position: relative;
     z-index: 5;
-    max-width: 92rem;
+    max-width: 72rem;
     padding: 0 4rem;
     margin: 0 auto;
 }
@@ -50,4 +50,18 @@
 .overlay.overlay-lg .shape.xshape
 {
     height: 38px;
+}
+
+.grid
+{
+    width: 100%;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-item
+{
+    width: 33.33%;
+    padding: 1rem 1.2rem;
 }

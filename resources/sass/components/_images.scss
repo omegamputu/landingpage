@@ -12,3 +12,57 @@
     width: 90px;
     margin-bottom: 1.7rem;
 }
+
+.points-sq
+{
+    width: 270px;
+}
+
+
+.overlay.overlay-sm .shape
+{
+    filter: brightness(0) invert(1);
+    opacity: 0.15;
+    height: 40px;
+}
+
+.overlay.overlay-sm .shape.xshape
+{
+    height: 30px;
+}
+
+.portfolio .square
+{
+    top: 28%;
+    left: 20%;
+}
+
+.portfolio .circle
+{
+    top: 8%;
+    right: 35%;
+}
+
+.portfolio .triangle
+{
+    bottom: 10%;
+    right: 4%;
+}
+
+.portfolio .half-circle1
+{
+    bottom: 13%;
+    left: 5%;
+}
+
+.portfolio .half-circle2
+{
+    top: 35%;
+    right: 20%;
+}
+
+.portfolio .xshape 
+{
+    top: 10%;
+    right: 8%;
+}

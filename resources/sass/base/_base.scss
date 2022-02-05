@@ -101,3 +101,19 @@ img {
     max-width: 900px;
     margin: 0 auto;
 }
+
+.services .points1
+{
+    bottom: -50px;
+    left: -125px;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.services .points2
+{
+    bottom: -55px;
+    right: -125px;
+    opacity: 0.2;
+    pointer-events: none;
+}

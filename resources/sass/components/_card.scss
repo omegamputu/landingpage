@@ -1,0 +1,37 @@
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-wrap
+{
+    margin: 1.7rem 0.8rem;
+}
+
+.card
+{
+    width: 100%;
+    max-width: 390px;
+    max-height: 520px;
+    background-color: var(--light-three);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    overflow: hidden;
+}
+
+.card .text-sm
+{
+    line-height: 0.8;
+}
+
+.card .text
+{
+    font-size: 1.15rem;
+    margin: 1.8rem 0;
+}

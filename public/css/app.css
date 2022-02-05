@@ -34,9 +34,61 @@ img {
   line-height: 1.6;
 }
 
-z-index {
+.z-index {
   position: relative;
   z-index: 2;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
+  line-height: 1;
+  font-size: 2.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.title::before {
+  content: attr(data-title);
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: var(--main-color);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title-sm {
+  color: var(--dark-one);
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.section-header {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 :root {
@@ -59,7 +111,7 @@ z-index {
   padding: 0.85rem 2rem;
   background-color: var(--main-color);
   color: var(--light-one);
-  border-radius: 2rem;
+  border-radius: 0.3rem;
   font-size: 1.05rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -70,12 +122,55 @@ z-index {
   background-color: #6b44e0;
 }
 
+.btn.small {
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+}
+
 .letters {
   position: absolute;
   width: 13.5rem;
   top: -5px;
   left: 15px;
   opacity: 0.06;
+}
+
+.icon {
+  width: 90px;
+  margin-bottom: 1.7rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-wrap {
+  margin: 1.7rem 0.8rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 390px;
+  max-height: 520px;
+  background-color: var(--light-three);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+  overflow: hidden;
+}
+
+.card .text-sm {
+  line-height: 0.8;
+}
+
+.card .text {
+  font-size: 1.15rem;
+  margin: 1.8rem 0;
 }
 
 .container {
@@ -230,7 +325,7 @@ nav .container {
 .links a.active {
   background-color: var(--main-color);
   color: var(--light-one);
-  border-radius: 2rem;
+  border-radius: 0.3rem;
   font-size: 1rem;
   padding: 0.9rem 2.1rem;
   margin-left: 1rem;

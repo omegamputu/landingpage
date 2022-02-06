@@ -177,7 +177,7 @@ img {
   border: none;
   outline: none;
   background-color: transparent;
-  margin: 0.48rem 0.4rem;
+  margin: 0.45rem 0.4rem;
   padding: 0.85rem 1.8rem;
   color: var(--light-one);
   text-transform: uppercase;
@@ -427,7 +427,7 @@ img {
   width: 100%;
   margin: 1.5rem 0;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .grid-item {

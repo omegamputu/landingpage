@@ -123,7 +123,6 @@ img {
     position: relative;
     width: 100%;
     background-color: var(--light-two);
-    min-height: 1200px;
 }
 
 .background-bg
@@ -153,4 +152,10 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.more-folio
+{
+    display: flex;
+    justify-content: center;
 }

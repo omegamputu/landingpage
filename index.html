@@ -23,7 +23,7 @@
         <div class="overlay overlay-lg">
           <img src="/img/shapes/square.png" class="shape square" alt="">
           <img src="/img/shapes/circle.png" class="shape circle" alt="">
-          <img src="/img/shapes/half-circle.png" class="shape half-circle1 alt="">
+          <img src="/img/shapes/half-circle.png" class="shape half-circle1" alt="">
           <img src="/img/shapes/half-circle.png" class="shape half-circle2" alt="">
           <img src="/img/shapes/x.png" class="shape xshape" alt="">
           <img src="/img/shapes/triangle.png" class="shape triangle" alt="">
@@ -135,14 +135,14 @@
           </div>
           <div class="section-body">
             <div class="filter">
-              <button class="filter-btn active">All</button>
-              <button class="filter-btn">UI/UX</button>
-              <button class="filter-btn">web Dev</button>
-              <button class="filter-btn">Graphic Design</button>
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">web Dev</button>
+              <button class="filter-btn" data-filter=".logo">Logo Design</button>
             </div>
 
             <div class="grid">
-              <div class="grid-item">
+              <div class="grid-item logo">
                 <div class="gallery-image">
                   <img src="./img/portfolio/one.jpg" alt="">
                   <div class="img-overlay">
@@ -154,7 +154,7 @@
                   </div> 
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item appdev">
                 <div class="gallery-image">
                   <img src="./img/portfolio/two.jpg" alt="">
                   <div class="img-overlay">
@@ -166,7 +166,7 @@
                   </div>
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item ui webdev">
                 <div class="gallery-image">
                   <img src="./img/portfolio/three.jpg" alt="">
                   <div class="img-overlay">
@@ -178,7 +178,7 @@
                   </div>
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item appdev ui">
                 <div class="gallery-image">
                   <img src="./img/portfolio/four.jpg" alt="">
                   <div class="img-overlay">
@@ -190,7 +190,7 @@
                   </div>
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item webdev">
                 <div class="gallery-image">
                   <img src="./img/portfolio/five.jpg" alt="">
                   <div class="img-overlay">
@@ -203,6 +203,9 @@
                 </div>
               </div>
             </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More</a>
+            </div>
           </div>
         </div>
       </div>
@@ -210,6 +213,7 @@
 
     <!-- Optional JavaScript -->
     <script src="/js/app.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>

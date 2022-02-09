@@ -2,7 +2,7 @@
 {
     position: relative;
     z-index: 5;
-    max-width: 72rem;
+    max-width: 92rem;
     padding: 0 4rem;
     margin: 0 auto;
 }
@@ -65,3 +65,12 @@
     width: 33.33%;
     padding: 1rem 1.2rem;
 }
+
+.blog-wrapper
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

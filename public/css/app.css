@@ -1784,7 +1784,7 @@ img {
 .title-sm {
   color: var(--dark-one);
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
 }
 
 .section {
@@ -1940,6 +1940,46 @@ img {
 .number {
   font-weight: 400;
   font-size: 2.35rem;
+}
+
+.blog-wrap {
+  position: relative;
+  margin: 1.3rem 0.5rem;
+}
+
+.blog-content {
+  padding: 2.1rem 2.2rem 2.7rem 2.2rem;
+}
+
+.blog-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.blog-info h5 {
+  color: var(--main-color);
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.blog-date {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.blog-user i {
+  margin-right: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.blog-text {
+  margin: 0.5rem 0 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: #666;
 }
 
 :root {
@@ -2149,6 +2189,29 @@ img {
   opacity: 0.1;
 }
 
+.blog-image {
+  width: 100%;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-image img {
+  position: absolute;
+  height: 100%;
+  width: initial;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+.blog .points {
+  top: 72%;
+  right: 71%;
+  opacity: 0.15;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
@@ -2216,10 +2279,42 @@ img {
   margin: 1.8rem 0;
 }
 
+.blog-card {
+  max-width: 390px;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--light-two);
+  transition: 0.3s;
+  position: relative;
+}
+
+.blog-card::after {
+  content: "";
+  position: absolute;
+  width: 1100%;
+  height: 0px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+}
+
+.blog-card:hover::after {
+  height: 8px;
+}
+
+.blog-card:hover .blog-image img {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
 .container {
   position: relative;
   z-index: 5;
-  max-width: 72rem;
+  max-width: 92rem;
   padding: 0 4rem;
   margin: 0 auto;
 }
@@ -2272,6 +2367,13 @@ img {
 .grid-item {
   width: 33.33%;
   padding: 1rem 1.2rem;
+}
+
+.blog-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 header {

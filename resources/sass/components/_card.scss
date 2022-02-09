@@ -73,3 +73,40 @@
     font-size: 1.15rem;
     margin: 1.8rem 0;
 }
+
+.blog-card
+{
+    max-width: 390px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--light-two);
+    transition: 0.3s;
+    position: relative;
+}
+
+.blog-card::after
+{
+    content: "";
+    position: absolute;
+    width: 1100%;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color);
+    transition: 0.3s;
+}
+
+.blog-card:hover
+{
+    transform: translateY(-10px);
+}
+
+.blog-card:hover::after
+{
+    height: 8px;
+}
+
+.blog-card:hover .blog-image img
+{
+    transform: translate(-50%, -50%) scale(1.15);
+}

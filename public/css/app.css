@@ -2101,6 +2101,19 @@ img {
   display: inline-block;
 }
 
+.hireme {
+  padding: 12rem 0;
+}
+
+.hireme .container {
+  text-align: center;
+}
+
+.hireme .text {
+  max-width: 1000px;
+  margin: 0 auto 1.6rem auto;
+}
+
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;

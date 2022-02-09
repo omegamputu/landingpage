@@ -1991,6 +1991,10 @@ img {
   margin-top: 6rem;
 }
 
+.reviews {
+  overflow: hidden;
+}
+
 .review {
   position: relative;
   padding: 2rem 1.5rem;

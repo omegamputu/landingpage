@@ -50,3 +50,12 @@ function countUp ()
         setTimeout(updateCount, 400);
     });
 }
+
+var mySwiper = new Swiper(".swiper", {
+    speed: 1100,
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    }
+})

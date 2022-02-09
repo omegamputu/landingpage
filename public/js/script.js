@@ -57,5 +57,10 @@ var mySwiper = new Swiper(".swiper", {
     loop: true,
     autoplay: {
         delay: 5000,
-    }
+    },
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 })

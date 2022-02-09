@@ -45,3 +45,19 @@
     color: var(--main-color);
 }
 
+.swiper-button-prev::after, .swiper-button-next::after
+{
+    display: none;
+}
+
+.swiper-button-next
+{
+    right: 2rem;
+    left: initial;
+}
+
+.swiper-button-prev 
+{
+    right: 4.5rem;
+    left: initial;
+}

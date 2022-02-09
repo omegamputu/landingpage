@@ -160,3 +160,16 @@
 {
     transform: translate(-50%, -50%) scale(1.1);
 }
+
+.about img
+{
+    max-width: 600px;
+}
+
+.about .points
+{
+    width: 300px;
+    top: 65%;
+    left: 80%;
+    opacity: 0.1;
+}

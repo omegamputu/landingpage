@@ -7,6 +7,12 @@
     margin: 0 auto;
 }
 
+.stop-scrolling
+{
+    height: 100%;
+    overflow: hidden;
+}
+
 .grid-2
 {
     display: grid;

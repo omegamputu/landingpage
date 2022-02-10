@@ -94,9 +94,10 @@ img {
 .section
 {
     padding: 7rem 0;
+    overflow: hidden;
 }
 
-.section-header
+.section-header .text
 {
     max-width: 900px;
     margin: 0 auto;
@@ -542,15 +543,6 @@ footer
     color: #7b7b7b;
     font-weight: 500;
     font-size: 1.3rem;
-}
-
-.followme .footer-line
-{
-    width: 40px;
-    height: 2px;
-    background-color: #7b7b7b;
-    margin: 0 1.2rem;
-    display: inline-block;
 }
 
 .social-media a 

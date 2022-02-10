@@ -20,7 +20,7 @@
   <body>
 
     <main>
-      <header>
+      <header id="header">
         <div class="overlay overlay-lg">
           <img src="/img/shapes/square.png" class="shape square" alt="">
           <img src="/img/shapes/circle.png" class="shape circle" alt="">
@@ -39,27 +39,31 @@
             <div class="links">
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#header">Home</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li>
-                  <a href="#">Portfolio</a>
+                  <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#">Testimonials</a>
+                  <a href="#testimonials">Testimonials</a>
                 </li>
                 <li>
-                  <a href="#">Contact me</a>
+                  <a href="#contact">Contact me</a>
                 </li>
                 <li>
-                  <a href="#" class="active">Hire me</a>
+                  <a href="#hireme" class="active">Hire me</a>
                 </li>
               </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
             </div>
           </div>
         </nav>
@@ -81,7 +85,7 @@
         </div>
       </header>
 
-      <section class="services section">
+      <section class="services section" id="services">
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Services</h3>
@@ -120,7 +124,7 @@
         </div>
       </section>
 
-      <section class="portfolio section">
+      <section class="portfolio section" id="portfolio">
         <div class="background-bg">
           <div class="overlay overlay-sm">
             <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="">
@@ -140,11 +144,11 @@
               <button class="filter-btn active" data-filter="*">All</button>
               <button class="filter-btn" data-filter=".ui">UI/UX</button>
               <button class="filter-btn" data-filter=".webdev">web Dev</button>
-              <button class="filter-btn" data-filter=".logo">Logo Design</button>
+              <button class="filter-btn" data-filter=".logo-design">Logo Design</button>
             </div>
 
             <div class="grid">
-              <div class="grid-item logo">
+              <div class="grid-item logo-design">
                 <div class="gallery-image">
                   <img src="./img/portfolio/one.jpg" alt="">
                   <div class="img-overlay">
@@ -156,7 +160,7 @@
                   </div> 
                 </div>
               </div>
-              <div class="grid-item logo webdev">
+              <div class="grid-item logo-design webdev">
                 <div class="gallery-image">
                   <img src="./img/portfolio/two.jpg" alt="">
                   <div class="img-overlay">
@@ -180,7 +184,7 @@
                   </div>
                 </div>
               </div>
-              <div class="grid-item logo ui">
+              <div class="grid-item logo-design ui">
                 <div class="gallery-image">
                   <img src="./img/portfolio/four.jpg" alt="">
                   <div class="img-overlay">
@@ -212,7 +216,7 @@
         </div>
       </section>
 
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="Who Am I">About me</h3>
@@ -364,7 +368,7 @@
         </div>
       </section>
 
-      <section class="testimonials section">
+      <section class="testimonials section" id="testimonials">
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="What People Say">Testimonials</h3>
@@ -467,7 +471,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <div class="contact-box">
             <div class="contact-info">
@@ -518,9 +522,9 @@
         </div>
       </section>
 
-      <section class="hireme">
+      <section class="hireme" id="hireme">
         <div class="container">
-          <h3 class="title" data-title="Hire me">Let's talk about your project</h3>
+          <h3 class="title">Let's talk about your project</h3>
           <p class="text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, assumenda? Repellendus facere labore, pariatur eaque sit consequatur ab sapiente nostrum non rem quam saepe delectus praesentium vitae commodi! Repellendus, modi.
           </p>
@@ -542,19 +546,19 @@
             <h3 class="title-sm">Links</h3>
             <ul>
               <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Testimonials</a>
+                <a href="#testimonials">Testimonials</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -597,8 +601,6 @@
           </div>
           <div class="follome-wrap">
             <div class="followme">
-              <h3>Follow me</h3>
-              <span class="footer-line"></span>
               <div class="social-media">
                 <a href="#">
                   <i class="bi bi-github"></i>

@@ -103,6 +103,8 @@ img {
     margin: 0 auto;
 }
 
+// SERVICES SECTION
+
 .services .points1
 {
     bottom: -50px;
@@ -118,6 +120,8 @@ img {
     opacity: 0.2;
     pointer-events: none;
 }
+
+// PORTFOLIO SECTION
 
 .portfolio
 {
@@ -160,6 +164,8 @@ img {
     display: flex;
     justify-content: center;
 }
+
+// ABOUT SECTION
 
 .about
 {
@@ -271,10 +277,12 @@ img {
     font-size: 2.35rem ;
 }
 
+// BLOG SECTION
+
 .blog-wrap
 {
     position: relative;
-    margin: 1.3rem 0.5rem;
+    //margin: 1.3rem 0.5rem;
 }
 
 .blog-content
@@ -292,15 +300,14 @@ img {
 .blog-info h5
 {
     color: var(--main-color);
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 0.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
     letter-spacing: 1px;
 }
 
 .blog-date
 {
-    margin-right: 1rem;
+    margin-right: 2rem;
     font-size: 0.9rem;
 }
 
@@ -313,10 +320,12 @@ img {
 .blog-text
 {
     margin: 0.5rem 0 1.5rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.3;
     color: #666;
 }
+
+// TESTIMONIALS SECTION
 
 .testimonials
 {
@@ -390,6 +399,8 @@ img {
     color: #777;
 }
 
+// CONTACT SECTION
+
 .contact
 {
     width: 100%;
@@ -457,6 +468,8 @@ img {
     display: inline-block;
 }
 
+// HIREME SECTION
+
 .hireme
 {
     padding: 12rem 0;
@@ -472,6 +485,8 @@ img {
     max-width: 1000px;
     margin: 0 auto 1.6rem auto;
 }
+
+// FOOTER SECTION
 
 footer
 {

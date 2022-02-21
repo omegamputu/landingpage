@@ -1945,7 +1945,6 @@ img {
 
 .blog-wrap {
   position: relative;
-  margin: 1.3rem 0.5rem;
 }
 
 .blog-content {
@@ -1960,14 +1959,13 @@ img {
 
 .blog-info h5 {
   color: var(--main-color);
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 0.5rem;
+  font-weight: 400;
+  font-size: 0.9rem;
   letter-spacing: 1px;
 }
 
 .blog-date {
-  margin-right: 1rem;
+  margin-right: 2rem;
   font-size: 0.9rem;
 }
 
@@ -1978,7 +1976,7 @@ img {
 
 .blog-text {
   margin: 0.5rem 0 1.5rem 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.3;
   color: #666;
 }
@@ -2565,7 +2563,7 @@ html {
 }
 
 .blog-card {
-  max-width: 390px;
+  max-width: 370px;
   width: 100%;
   overflow: hidden;
   background-color: var(--light-two);
@@ -3619,6 +3617,19 @@ nav.open .links {
   .grid-item {
     width: 100%;
   }
+
+  .blog-card {
+    max-width: 300px;
+  }
+
+  .blog-image {
+    width: inherit;
+    height: 150px;
+  }
+
+  .blog-image img {
+    width: inherit;
+  }
 }
 @media (max-width: 560px) {
   .container {
@@ -3678,6 +3689,19 @@ nav.open .links {
 
   .swiper-button-prev {
     right: 3rem;
+  }
+
+  .blog-card {
+    max-width: 300px;
+  }
+
+  .blog-image {
+    width: inherit;
+    height: 150px;
+  }
+
+  .blog-image img {
+    width: inherit;
   }
 
   .contact {

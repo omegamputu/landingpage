@@ -35,7 +35,7 @@
 
     .btn.small
     {
-        padding: 00.65rem 1.6rem;
+        padding: 0.65rem 1.6rem;
         font-size: 0.7rem;
     }
 
@@ -802,6 +802,23 @@
     {
         width: 100%;
     }
+
+    .blog-card 
+    {
+        max-width: 300px;
+    }
+
+    .blog-image
+    {
+        width: inherit;
+        height: 150px;
+    }
+
+    .blog-image img 
+    {
+        width: inherit;
+    }
+
 }
 
 @media (max-width: 560px) {
@@ -876,6 +893,22 @@
     .swiper-button-prev
     {
         right: 3rem;
+    }
+
+    .blog-card 
+    {
+        max-width: 300px;
+    }
+
+    .blog-image
+    {
+        width: inherit;
+        height: 150px;
+    }
+
+    .blog-image img 
+    {
+        width: inherit;
     }
 
     .contact
